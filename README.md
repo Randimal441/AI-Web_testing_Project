@@ -56,11 +56,11 @@ cp .env.example .env
 Open `.env` and update these values:
 
 ```env
-NODE_ENV=development
+NODE_ENV=
 PORT=5000
-MONGODB_URI=mongodb://localhost:27017/autoqa_agent
-CORS_ORIGIN=http://localhost:5173
-LOG_LEVEL=debug
+MONGODB_URI=
+CORS_ORIGIN=
+
 API_PREFIX=/api/v1
 ```
 
