@@ -1,0 +1,21 @@
+{
+  "name": "@autoqa/playwright-engine",
+  "version": "1.0.0",
+  "description": "AutoQA Agent — Playwright Automation Engine (scaffold)",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "build": "tsc --noEmit",
+    "codegen": "playwright codegen"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.44.1",
+    "playwright": "^1.44.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "typescript": "^5.4.5"
+  }
+}
